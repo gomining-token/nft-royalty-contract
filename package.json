@@ -1,0 +1,36 @@
+{
+  "name": "nft-royalty-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "goerli:migrate": "truffle migrate --network goerli",
+    "mainnet:migrate": "truffle migrate --network live"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomining-token/nft-royalty-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gomining-token/nft-royalty-contract/issues"
+  },
+  "homepage": "https://github.com/gomining-token/nft-royalty-contract#readme",
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.6.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@truffle/hdwallet-provider": "^2.1.5",
+    "dotenv": "^16.0.3",
+    "operator-filter-registry": "^1.4.0",
+    "truffle": "^5.7.3",
+    "truffle-assertions": "^0.9.2",
+    "web3": "^1.8.1"
+  }
+}
